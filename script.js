@@ -20,7 +20,6 @@ function setColor(element, entered, i) {
   entered[i] += 1;
   if (entered[i] === 2) {
     alert("You Lost, you hovered over the box " + i);
-    clearTimeout(killRunTIme);
   }
 
   const color = getRandomColor();
